@@ -1,0 +1,14 @@
+{
+  "name": "effective_ts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/0gunkim/st-effective-typescript.git",
+  "author": "0gunkim <goldenprevue@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon --exec 'ts-node' --cwd $INIT_CWD"
+  },
+  "dependencies": {
+    "typescript": "^5.1.6"
+  }
+}
