@@ -11,10 +11,10 @@ type Shape = Square | Rectangle;
 
 function calculateArea(shape: Shape) {
   if (shape.kind === "rectangle") {
-    shape; // Type is Rectangle
+    shape; // Type is Rectangle //type체크를 하기위한 변수
     return shape.width * shape.height;
   } else {
-    shape; // Type is Square
+    shape; // Type is Squar수
     return shape.width * shape.width;
   }
 }
